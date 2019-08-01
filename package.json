@@ -1,0 +1,24 @@
+{
+  "id": "freshchat",
+  "name": "Freshchat",
+  "version": "1.0.0",
+  "description": "Freshchat",
+  "main": "index.js",
+  "author": "Jefrey Santos <jefrey.santos@capitual.io>",
+  "repository": "https://github.com/jesobreira/franz-recipe-freshchat",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://web.freshchat.com/",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
